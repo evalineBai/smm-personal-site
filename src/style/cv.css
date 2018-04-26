@@ -1,0 +1,31 @@
+.grid2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  margin-top: 3%;
+}
+
+.grid-item1 {
+  border: 1px solid;
+  border-color: white;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.4);
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;;
+}
+
+.grid-item2 {
+  border: 1px solid;
+  border-color: white;
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.4);
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.document {
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  padding-top: 50%;
+}

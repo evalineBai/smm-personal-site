@@ -1,0 +1,22 @@
+.app-style {
+  font-family: sans-serif;
+  background-image: url("https://c1.staticflickr.com/1/898/41508581241_fb0603fe51_h.jpg");
+  size: cover;
+  min-height: 1000px;
+  width: 100%;
+  position: absolute;
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2%;
+  text-align: center;
+  color: rgba(255,255,255,0.9);
+  letter-spacing: 0.3em;
+}
+
+.name {
+  letter-spacing: 0.5em;
+  color: white;
+}
