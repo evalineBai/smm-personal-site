@@ -8,21 +8,20 @@ const Research = () => (
     <div className="research-summary col-3-5">
       <h2>Overview</h2>
       I am primarily a theorist interested in the formation, evolution, and
-      diversity of exoplanets. In the past I have worked on instrumentation for
-      detecting low mass exoplanets and studies regarding observing atmospheric
-      properties of Earth-like tidally locked exoplanets.
+      diversity of exoplanets. My past work has centered around using data from NASA's
+      Kepler space mission to understand the dynamical interactions of multiple
+      planet systems.  
       <br />
       <br />
-      My focus now is on exoplanet dynamics including identifying, confirming,
-      and trying to understand multiple planet / multiple star systems by
-      looking at dynamical interactions. I have primarily been
-      studying data from NASA's Kepler mission with custom written
+      Since coming to Caltech, I have been attrempting to combine the information 
+      gained about stellar systems from high-resolution spectroscopy and radial velocities
+      of their host stars with transit timing data. For these task I employ custom 
       photo-dynamical models and stability simulations using Markov chain Monte
       Carlo methods.
       <br />
       <br />
       <NavLink to="/transit">
-        Click here for a primer on Exoplanet Transits
+        Click here for a primer on Exoplanet Transit Dynamics
       </NavLink>
       <br />
       <br />
@@ -42,7 +41,7 @@ const Research = () => (
       </a>
       <h5>Select Publications</h5>
       <a href="https://www.nature.com/articles/nature17445">
-        A resonant chain of four transiting, sub-Neptune planets, 2016, Nature
+        A Resonant Chain of Four Transiting, sub-Neptune Planets, 2016, Nature
       </a>
       <br />
       <br />
