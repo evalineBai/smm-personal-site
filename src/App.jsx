@@ -3,8 +3,9 @@ import { withRouter } from 'react-router';
 import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom';
 import Nav from './Nav';
 import Home from './Home';
-import CV from './CV';
 import Research from './Research';
+import Activity from './Activity';
+import CV from './CV';
 import Contact from './Contact';
 import './style/app.css';
 
@@ -31,15 +32,21 @@ class App extends React.Component {
           )}
         />
         <Route
-          path='/cv'
-          render={() => (
-            <CV />
-          )}
-        />
-        <Route
           path='/research'
           render={() => (
             <Research />
+          )}
+        />
+        <Route
+          path='/activities'
+          render={() => (
+            <Activity />
+          )}
+        />
+        <Route
+          path='/cv'
+          render={() => (
+            <CV />
           )}
         />
         <Route

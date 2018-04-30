@@ -2,6 +2,7 @@
   margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .bar {
@@ -11,15 +12,17 @@
 }
 
 .research-summary {
-  color: rgba(255, 255, 255, 0.9);
   text-align: left;
   font-size: 16px;
 }
 
 .publications {
-  color: rgba(255, 255, 255, 0.9);
   text-align: left;
   font-size: 16px;
+}
+
+.select-pub {
+  margin-top: 5%;
 }
 
 [class*='col-'] {

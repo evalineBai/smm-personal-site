@@ -28,7 +28,7 @@ const Nav = () => (
       <li className="nav-element">
         <NavLink
           exact={true}
-          to="/press"
+          to="/activities"
           className="link"
           activeClassName="selected"
         >

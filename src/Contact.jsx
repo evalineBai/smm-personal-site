@@ -1,8 +1,4 @@
-// Links: Email, LinkedIn, Github, Work Information
-// Photo: Mount Rushmore
-
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import { Icon } from 'react-fa';
 import './style/contact.css';
 
