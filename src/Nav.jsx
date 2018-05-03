@@ -48,6 +48,16 @@ const Nav = () => (
       <li className="nav-element">
         <NavLink
           exact={true}
+          to="/musings"
+          className="link"
+          activeClassName="selected"
+        >
+          Musings
+        </NavLink>
+      </li>
+      <li className="nav-element">
+        <NavLink
+          exact={true}
           to="/contact"
           className="link"
           activeClassName="selected"

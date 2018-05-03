@@ -12,24 +12,6 @@ const Contact = () => (
     <span className="col-1-3">
       <h2>Contact Me</h2>
       <div>
-        {/* <div className="contact-box">
-          <Icon name="envelope" size="3x" />
-          <a href="mailto:sean.martin.mills@gmail.com">
-            <span className="contact-link">Email</span>
-          </a>
-        </div>
-        <div>
-          <Icon name="linkedin" size="3x" />
-          <a href="https://www.linkedin.com/in/seanmmills/" target="_blank">
-            <span className="contact-link">LinkedIn</span>
-          </a>
-        </div>
-        <div>
-          <Icon name="github" size="3x" />
-          <a href="https://github.com/smmills" target="_blank">
-            <span className="contact-link">Code Samples</span>
-          </a>
-        </div> */}
         <div className="contact-box">
           <a
             href="mailto:sean.martin.mills@gmail.com"
@@ -53,8 +35,8 @@ const Contact = () => (
           </a>
         </div>
         <div className="rushmore">
-          (Pictured Left: Enjoying the Mount Rushmore stop of a cross-country
-          road trip during which I visited five national parks)
+          Left: Enjoying the Mount Rushmore stop of a recent cross-country
+          road trip, during which I visited five national parks
         </div>
       </div>
     </span>

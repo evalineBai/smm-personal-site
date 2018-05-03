@@ -6,6 +6,7 @@ import Home from './Home';
 import Research from './Research';
 import Activity from './Activity';
 import CV from './CV';
+import Musings from './Musings';
 import Contact from './Contact';
 import './style/app.css';
 
@@ -47,6 +48,12 @@ class App extends React.Component {
           path='/cv'
           render={() => (
             <CV />
+          )}
+        />
+        <Route
+          path='/musings'
+          render={() => (
+            <Musings />
           )}
         />
         <Route

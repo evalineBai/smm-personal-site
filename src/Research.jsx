@@ -16,7 +16,7 @@ const Research = () => (
       Since coming to Caltech, I have been attrempting to combine the
       information gained about stellar systems from high-resolution spectroscopy
       and radial velocities of their host stars with transit timing data. For
-      these task I employ custom photo-dynamical models and stability
+      these tasks I employ custom photo-dynamical models and stability
       simulations using Markov chain Monte Carlo methods.
       <br />
       <br />
