@@ -27,19 +27,19 @@ const Musings = () => (
         science including Astronomy.
       </p>
       <p>
-        Only about 1/200th of the US Federal Budget goes towards funding NASA.
+        Only about 1/200th of the US Federal Budget goes towards funding NASA [<a href="https://www.congress.gov/bill/115th-congress/senate-bill/442">Source1</a>, <a href="http://spacenews.com/nasa-receives-20-7-billion-in-omnibus-appropriations-bill/">Source2</a>, <a href="https://www.lpi.usra.edu/exploration/multimedia/NASABudgetHistory.pdf">Source3</a>, <a href="https://en.wikipedia.org/wiki/Budget_of_NASA">Source4</a>].
         That is half of one percent. Surveys dating from the 1990s to 2010s
         suggest the average American believes that roughly 1/4 of the US Federal
-        Budget goes towards NASA. This is an overestimation by a factor of about
+        Budget goes towards NASA [<a href="http://www.thespacereview.com/article/898/1">Source5</a>, <a href="http://www.academia.edu/179045/_Public_Opinion_Polls_and_Perceptions_of_US_Human_Spaceflight_">Source6</a>, <a href="http://blogs.discovermagazine.com/badastronomy/2007/11/21/nasas-budget-as-far-as-americans-think/#.VqfUzBGAab0">Source7</a>]. This is an overestimation by a factor of about
         50. In terms of wages, a more readily accessible number to most people,
         it is similar to assuming that you will make over $100,000 per year,
-        while your true annual salary is actually only $2,000 a year. In
+        while your true annual salary is only $2,000 a year. In
         comparison to other federal programs, the entire (inflation-adjusted)
         NASA budget over its whole history since inception (more than 50
         years!), is considerably less than the US federal government spent on
-        social programs in year 2015 alone. This year (2016), the military's
+        social programs in year 2017 alone [<a href="https://www.cbo.gov/publication/53624">Source8</a>]. This year (2018), the military's
         budget will exceed NASA's budget by more than half a trillion dollars
-        (five times more than the estimated cost to get humans to Mars).
+        (five times more than the <a href="https://news.nationalgeographic.com/news/2014/04/140422-mars-mission-manned-cost-science-space/">estimated cost to get humans to Mars</a>) [<a href="https://www.nytimes.com/interactive/2017/03/15/us/politics/trump-budget-proposal.html">Source9</a>].
       </p>
     </div>
   </div>
