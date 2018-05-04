@@ -13,11 +13,11 @@ const Research = () => (
       multiple planet systems.
       <br />
       <br />
-      Since coming to Caltech, I have been attrempting to combine the
+      Since coming to Caltech, I have been working on combining the
       information gained about stellar systems from high-resolution spectroscopy
       and radial velocities of their host stars with transit timing data. For
       these tasks I employ custom photo-dynamical models and stability
-      simulations using Markov chain Monte Carlo methods.
+      simulations using Bayesian  methods.
       <br />
       <br />
       <NavLink to="/transit">
@@ -58,7 +58,7 @@ const Research = () => (
         href="http://iopscience.iop.org/article/10.3847/1538-3881/153/1/45/meta"
         target="_blank"
       >
-        Kepler-103: A Mutually Inclined Giant Planet System, 2017, Astronomical
+        Kepler-108: A Mutually Inclined Giant Planet System, 2017, Astronomical
         Journal
       </a>
       <br />
