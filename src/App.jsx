@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link, Redirect } from 'react-router-dom
 import Nav from './Nav';
 import Home from './Home';
 import Research from './Research';
+import Transit from './Transit';
 import Activity from './Activity';
 import CV from './CV';
 import Musings from './Musings';
@@ -36,6 +37,13 @@ class App extends React.Component {
           path='/research'
           render={() => (
             <Research />
+          )}
+        />
+        <Route
+          exact
+          path='/transit'
+          render={() => (
+            <Transit />
           )}
         />
         <Route
