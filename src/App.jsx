@@ -19,7 +19,7 @@ class App extends React.Component {
       <div className="app-style">
         <div className="header">
           <h1 className="name">SEAN MARTIN MILLS</h1>
-          <h4 className="title">Theoretical Astrophysicist</h4>
+          <h4>Theoretical Astrophysicist</h4>
         </div>
         <Nav />
         <Route

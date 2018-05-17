@@ -1,7 +1,5 @@
 .research {
-  margin-top: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 3% 10% 10% 10%;
 }
 
 .bar {
@@ -15,13 +13,25 @@
   font-size: 16px;
 }
 
+.transit-link {
+  font-size: 18px;
+}
+
 .publications {
   text-align: left;
   font-size: 16px;
 }
 
+.external-col {
+  background-color: black;
+  color: #f5f6fa;
+  padding: 3%;
+}
+
 .select-pub {
   margin-top: 5%;
+  border: solid 2px #273c75;
+  padding: 3%;
 }
 
 [class*='col-'] {
@@ -35,10 +45,4 @@
 
 .col-2-5 {
   width: 40%;
-}
-
-.grid:after {
-  content: "";
-  display: table;
-  clear: both;
 }
