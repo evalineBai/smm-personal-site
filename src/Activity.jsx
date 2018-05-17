@@ -14,47 +14,6 @@ import './style/activity.css';
 const Activity = () => (
   <div className="activity">
     <div>
-      <h3>Teaching and Outreach</h3>
-    </div>
-    <hr className="bar" />
-    <div className="teaching">
-      <div>
-        <h5 className="entry-header">
-          University of Chicago Teaching Assistant
-        </h5>
-        <p className="entry">
-          ASTR 282/358 - Extrasolar Planets PHSC
-          <br />
-          PHSC 11900 - Stellar Astronomy and Astrophysics
-          <br />
-          PHSC 12000 - The Origin of the Universe and How We Know
-          <br />
-          NTSC 10200 - Evolution of the Natural World II: Evolution of the
-          Universe
-        </p>
-      </div>
-      <div>
-        <h5 className="entry-header">Adler Planetarium</h5>
-        <p className="entry">
-          During my time as a graduate student at UChicago I gave monthy, public
-          talks at Chicago's Adler Planetarium. These informal discussions in
-          Adler's Space Visualization Laboratory covered wide range of topics
-          that were tailored to audiences of all ages and backgrounds. Talks
-          were accompanied by concept demos.
-        </p>
-      </div>
-      <div>
-        <h5 className="entry-header">Yerkes Institute</h5>
-        <p className="entry">
-          I had alot of fun designing labs and running science camps for High
-          School students at Yerkes Observatory. These week-long overnight camps
-          are offered bi-annually (Yerkes Summer and Winter Institutes) and
-          allow kids from Chicago's inner city to experience the outdoors at
-          UChicago's Yerkes Observatory while learning math and science.
-        </p>
-      </div>
-    </div>
-    <div>
       <h3>Select Press</h3>
     </div>
     <hr className="bar" />
@@ -161,6 +120,48 @@ const Activity = () => (
         </Col>
       </Row>
     </Container>
+    
+    <div>
+      <h3>Teaching and Outreach</h3>
+    </div>
+    <hr className="bar" />
+    <div className="teaching">
+      <div>
+        <h5 className="entry-header">
+          University of Chicago Teaching Assistant
+        </h5>
+        <p className="entry">
+          ASTR 282/358 - Extrasolar Planets PHSC
+          <br />
+          PHSC 11900 - Stellar Astronomy and Astrophysics
+          <br />
+          PHSC 12000 - The Origin of the Universe and How We Know
+          <br />
+          NTSC 10200 - Evolution of the Natural World II: Evolution of the
+          Universe
+        </p>
+      </div>
+      <div>
+        <h5 className="entry-header">Adler Planetarium</h5>
+        <p className="entry">
+          During my time as a graduate student at UChicago I gave monthy, public
+          talks at Chicago's Adler Planetarium. These informal discussions in
+          Adler's Space Visualization Laboratory covered wide range of topics
+          that were tailored to audiences of all ages and backgrounds. Talks
+          were accompanied by concept demos.
+        </p>
+      </div>
+      <div>
+        <h5 className="entry-header">Yerkes Institute</h5>
+        <p className="entry">
+          I had alot of fun designing labs and running science camps for High
+          School students at Yerkes Observatory. These week-long overnight camps
+          are offered bi-annually (Yerkes Summer and Winter Institutes) and
+          allow kids from Chicago's inner city to experience the outdoors at
+          UChicago's Yerkes Observatory while learning math and science.
+        </p>
+      </div>
+    </div>
   </div>
 );
 
