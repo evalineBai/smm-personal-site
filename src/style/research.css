@@ -2,13 +2,12 @@
   margin-top: 3%;
   margin-left: 10%;
   margin-right: 10%;
-  color: rgba(255, 255, 255, 0.9);
 }
 
 .bar {
-  height: 2px;
-  color: white;
-  background-color: white;
+  height: 1px;
+  color: grey;
+  background-color: grey;
 }
 
 .research-summary {

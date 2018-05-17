@@ -9,21 +9,17 @@ import Activity from './Activity';
 import CV from './CV';
 import Musings from './Musings';
 import Contact from './Contact';
+import Footer from './Footer';
 import './style/app.css';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
 
   render() {
     return (
       <div className="app-style">
         <div className="header">
           <h1 className="name">SEAN MARTIN MILLS</h1>
-          <h4>Exoplanet Astrophysicist</h4>
+          <h4>Theoretical Astrophysicist</h4>
         </div>
         <Nav />
         <Route

@@ -13,22 +13,22 @@
 
 .nav-element {
   display: inline-block;
-  padding: 1.5em;
-  font-size: 18px;
-  font-weight: lighter;
+  padding: 1.7%;
+  font-size: 2em;
+  font-family: 'East Sea Dokdo', cursive;
 }
 
 .link {
-  color: rgba(255, 255, 255, 0.8);
+  color: #0984e3;
 }
 
 .link:hover {
   text-decoration: none;
-  color: #c2ddff;
+  color: #273c75;
 }
 
 .selected {
-  color: white;
-  padding-bottom: 15px;
-  border-bottom: 2px solid white;
+  padding-bottom: 8px;
+  color: #273c75;
+  border-bottom: 3px solid #273c75;
 }
