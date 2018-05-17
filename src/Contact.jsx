@@ -15,28 +15,28 @@ const Contact = () => (
         <div className="contact-box">
           <a
             href="mailto:sean.martin.mills@gmail.com"
-            className="contact-icon"
+            className="icon"
           >
-            <Icon name="envelope" size="3x" />
+            <Icon name="envelope" size="2x" />
           </a>
           <a
             href="https://www.linkedin.com/in/seanmmills/"
             target="_blank"
-            className="contact-icon"
+            className="icon"
           >
-            <Icon name="linkedin" size="3x" />
+            <Icon name="linkedin" size="2x" />
           </a>
           <a
             href="https://github.com/smmills"
             target="_blank"
-            className="contact-icon"
+            className="icon"
           >
-            <Icon name="github" size="3x" />
+            <Icon name="github" size="2x" />
           </a>
         </div>
-        <div className="rushmore">
-          Left: Enjoying the Mount Rushmore stop of a recent cross-country
-          road trip, during which I visited five national parks
+        <div className="contact-box">
+          <h2>CV / Resume</h2>
+
         </div>
       </div>
     </span>

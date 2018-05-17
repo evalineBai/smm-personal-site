@@ -8,7 +8,7 @@ const CV = () => (
         href="https://drive.google.com/file/d/0B1hwEpLvdn6tZC04VGFMTGl0ZTg/view"
         target="_blank"
       >
-        <h1 className="document">CV</h1>
+        <h1 className="document link">CV</h1>
       </a>
     </div>
     <div className="grid-item2">
@@ -16,7 +16,7 @@ const CV = () => (
         href="https://drive.google.com/file/d/1rxPSCv1Imw87KPFAHULVTDdsUT6iBABu/view"
         target="_blank"
       >
-        <h1 className="document">RESUME</h1>
+        <h1 className="document link">RESUME</h1>
       </a>
     </div>
   </div>

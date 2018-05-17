@@ -9,9 +9,7 @@ import Activity from './Activity';
 import CV from './CV';
 import Musings from './Musings';
 import Contact from './Contact';
-import Footer from './Footer';
 import './style/app.css';
-
 class App extends React.Component {
 
   render() {
