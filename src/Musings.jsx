@@ -16,7 +16,7 @@ const Musings = () => (
       </p>
     </div>
     <div>
-      <h3>Nasa's Budget</h3>
+      <h3>NASA's Budget</h3>
     </div>
     <hr className="bar" />
     <div className="blog-entry">

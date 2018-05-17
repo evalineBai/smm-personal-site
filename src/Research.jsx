@@ -26,8 +26,8 @@ const Research = () => (
       <br />
       <br />
       Interesting systems I have worked on lately include Kepler-223, a resonant
-      chain of planets that is a window to planet formation, and Kepler-453 (KIC
-      9632895), which is a misaligned circumbinary system that exhibits rapid
+      chain of planets that is a window to planet formation, and Kepler-453, 
+      which is a misaligned circumbinary system that exhibits rapid
       precession resulting in transits disappearing and reappearing.
     </div>
     <div className="publications col-2-5">
