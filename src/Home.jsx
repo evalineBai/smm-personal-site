@@ -1,10 +1,11 @@
 import React from 'react';
 import './style/home.css';
+import Sean from './media/sean-mills.jpg';
 
 const Home = () => (
   <div className="about-border">
     <img
-      src="https://c1.staticflickr.com/1/828/27303274797_fb2faf4f61_z.jpg"
+      src={Sean}
       alt="Sean in Nature"
       className="image-home"
     />

@@ -11,6 +11,10 @@ import {
   Col
 } from 'reactstrap';
 import './style/activity.css';
+import GizmodoImage from './media/gizmodo-press.png';
+import FourWorlds from './media/4worlds-press.jpg';
+import Wonky from './media/wonky-press.png';
+import Astronomers from './media/astronomers-press.png';
 
 const Activity = () => (
   <div className="activity">
@@ -23,7 +27,7 @@ const Activity = () => (
         <Col>
           <div className="card-container">
             <img
-              src="https://c1.staticflickr.com/1/956/40004310070_900e4c64ce.jpg"
+              src={Astronomers}
               alt="Astronomers Find a System of Planets"
               className="press-image"
             />
@@ -44,7 +48,7 @@ const Activity = () => (
         <Col>
           <div className="card-container">
             <img
-              src="https://c1.staticflickr.com/1/944/41811542251_16ae16a533_o.png"
+              src={Wonky}
               alt="Giant Planet and Wonky Orbits"
               className="press-image"
             />
@@ -66,7 +70,7 @@ const Activity = () => (
         <Col>
           <div className="card-container">
             <img
-              src="https://c1.staticflickr.com/1/963/40913006065_dc6da8d55c.jpg"
+              src={FourWorlds}
               alt="4 Alien Worlds Locked in Dance"
               className="press-image"
             />
@@ -87,7 +91,7 @@ const Activity = () => (
         <Col>
           <div className="card-container">
             <img
-              src="https://c1.staticflickr.com/1/960/41095028114_dd9100938a_z.jpg"
+              src={GizmodoImage}
               alt="4-Planet System with Cool Orbital Arrangement"
               className="press-image"
             />

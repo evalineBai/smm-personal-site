@@ -2,7 +2,7 @@
   margin-top: 3%;
   margin-bottom: 10%;
   min-height: 300px;
-  background-image: url('https://c1.staticflickr.com/1/898/41508581241_0ca76b158b_o.jpg');
+  background-image: url(../media/stellar-background.jpg);
   background-size: cover;
 }
 
@@ -15,9 +15,14 @@
 }
 
 .image-home {
-  width: 25%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 35%;
   height: auto;
   float: left;
-  margin: 2% 3% 0 3%;
+  margin: 5% 2% 3% 2%;
   border-radius: 50%;
 }
