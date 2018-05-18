@@ -5,6 +5,7 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
+  CardImgOverlay,
   Container,
   Row,
   Col
@@ -17,110 +18,95 @@ const Activity = () => (
       <h3>Select Press</h3>
     </div>
     <hr className="bar" />
-    <Container>
+    <Container className="press">
       <Row>
         <Col>
-          <div className="press-cards">
-            <Card>
-              <CardImg
-                top
-                width="100%"
-                src="https://c1.staticflickr.com/1/956/40004310070_900e4c64ce.jpg"
-                alt="Astronomers Find a System of Planets"
-                className="card-img"
-              />
-              <CardBody className="card-body">
+          <div className="card-container">
+            <img
+              src="https://c1.staticflickr.com/1/956/40004310070_900e4c64ce.jpg"
+              alt="Astronomers Find a System of Planets"
+              className="press-image"
+            />
+            <div className="middle">
+              <div className="cardText">
                 <a
                   href="http://www.astronomy.com/news/2016/05/astronomers-find-a-system-of-planets-that-keep-each-other-in-the-tightest-formation-seen"
                   target="_blank"
                 >
-                  <CardTitle className="card-title">
-                    Astronomers find a system of planets that keep each other in
-                    the tightest formation seen
-                  </CardTitle>
+                  Astronomers find a system of planets that keep each other in
+                  the tightest formation seen
                 </a>
-                <CardSubtitle>Astronomy Magazine</CardSubtitle>
-              </CardBody>
-            </Card>
+                <div>Astronomy Magazine</div>
+              </div>
+            </div>
           </div>
         </Col>
         <Col>
-          <div className="press-cards">
-            <Card>
-              <CardImg
-                top
-                width="100%"
-                src="https://c1.staticflickr.com/1/944/41811542251_16ae16a533_o.png"
-                alt="Giant Planet and Wonky Orbits"
-                className="card-img"
-              />
-              <CardBody className="card-body">
+          <div className="card-container">
+            <img
+              src="https://c1.staticflickr.com/1/944/41811542251_16ae16a533_o.png"
+              alt="Giant Planet and Wonky Orbits"
+              className="press-image"
+            />
+            <div className="middle">
+              <div className="cardText">
                 <a
                   href="http://www.skyandtelescope.com/astronomy-news/giant-planets-and-wonky-orbits/"
                   target="_blank"
                 >
-                  <CardTitle className="card-title">
-                    Giant Planets and Wonky Orbits
-                  </CardTitle>
+                  Giant Planets and Wonky Orbits
                 </a>
-                <CardSubtitle>Sky & Telescope</CardSubtitle>
-              </CardBody>
-            </Card>
+                <div>Sky & Telescope</div>
+              </div>
+            </div>
           </div>
         </Col>
+      </Row>
+      <Row>
         <Col>
-          <div className="press-cards">
-            <Card>
-              <CardImg
-                top
-                width="100%"
-                src="https://c1.staticflickr.com/1/963/40913006065_dc6da8d55c.jpg"
-                alt="4 Alien Worlds Locked in Dance"
-                className="card-img"
-              />
-              <CardBody className="card-body">
+          <div className="card-container">
+            <img
+              src="https://c1.staticflickr.com/1/963/40913006065_dc6da8d55c.jpg"
+              alt="4 Alien Worlds Locked in Dance"
+              className="press-image"
+            />
+            <div className="middle">
+              <div className="cardText">
                 <a
                   href="https://www.space.com/32860-four-alien-planets-resonance-kepler-223.html"
                   target="_blank"
                 >
-                  <CardTitle className="card-title">
-                    Surprise! 4 Alien Worlds Locked in Fragile Dance for 6 Billion
-                    Years
-                  </CardTitle>
+                  Surprise! 4 Alien Worlds Locked in Fragile Dance for 6 Billion
+                  Years
                 </a>
-                <CardSubtitle>Space.com</CardSubtitle>
-              </CardBody>
-            </Card>
+                <div>Space.com</div>
+              </div>
+            </div>
           </div>
         </Col>
         <Col>
-          <div>
-            <Card>
-              <CardImg
-                top
-                width="100%"
-                src="https://c1.staticflickr.com/1/960/41095028114_dd9100938a_z.jpg"
-                alt="4-Planet System with Cool Orbital Arrangement"
-                className="card-img"
-              />
-              <CardBody className="card-body">
+          <div className="card-container">
+            <img
+              src="https://c1.staticflickr.com/1/960/41095028114_dd9100938a_z.jpg"
+              alt="4-Planet System with Cool Orbital Arrangement"
+              className="press-image"
+            />
+            <div className="middle">
+              <div className="cardText">
                 <a
                   href="https://gizmodo.com/this-four-planet-system-features-one-of-the-coolest-orb-1776231945"
                   target="_blank"
                 >
-                  <CardTitle>
-                    This Four-Planet System Features One of the Coolest Orbital
-                    Arrangements We've Ever Seen
-                  </CardTitle>
+                  This Four-Planet System Features One of the Coolest Orbital
+                  Arrangements We've Ever Seen
                 </a>
-                <CardSubtitle>Gizmodo</CardSubtitle>
-              </CardBody>
-            </Card>
+                <div>Gizmodo</div>
+              </div>
+            </div>
           </div>
         </Col>
       </Row>
     </Container>
-    
     <div>
       <h3>Teaching and Outreach</h3>
     </div>
