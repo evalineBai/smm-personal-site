@@ -1,5 +1,41 @@
 .transit {
-  margin-top: 3%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 3% 10% 10% 10%;
+}
+
+.vertical {
+  max-height: 700px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.horizontal {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.scale-down {
+  max-height: 300px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.scale-left {
+  margin-left: 25%;
+}
+
+.subheader {
+  margin-top: 5%;
 }

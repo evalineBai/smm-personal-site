@@ -23,7 +23,7 @@
   display: block;
   width: 100%;
   height: auto;
-  min-height: 230px;
+  min-height: 200px;
   transition: .3s ease;
   backface-visibility: hidden;
 }
@@ -54,4 +54,12 @@
 
 .card-container:hover .middle {
   opacity: 1;
+}
+
+.blog-entry {
+  padding: 1em;
+}
+
+.musings h3 {
+  color: black;
 }

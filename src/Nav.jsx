@@ -28,11 +28,21 @@ const Nav = () => (
       <li className="nav-element">
         <NavLink
           exact={true}
+          to="/transit"
+          className="link"
+          activeClassName="selected"
+        >
+          Transits
+        </NavLink>
+      </li>
+      <li className="nav-element">
+        <NavLink
+          exact={true}
           to="/activities"
           className="link"
           activeClassName="selected"
         >
-          Activities
+          Press / Musings
         </NavLink>
       </li>
       <li className="nav-element">
@@ -42,17 +52,7 @@ const Nav = () => (
           className="link"
           activeClassName="selected"
         >
-          CV / Resume
-        </NavLink>
-      </li>
-      <li className="nav-element">
-        <NavLink
-          exact={true}
-          to="/musings"
-          className="link"
-          activeClassName="selected"
-        >
-          Musings
+          CV
         </NavLink>
       </li>
       <li className="nav-element">
