@@ -1,24 +1,15 @@
-.grid2 {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
-  justify-items: center;
-  margin-top: 3%;
+.cv-container {
+  margin: 5% 10% 5% 10%;
 }
 
-.grid-item1 {
+.grid-item {
   border: 1px solid;
   border-color: black;
   box-shadow: 10px 10px grey;
   width: 300px;
   height: 300px;
-}
-
-.grid-item2 {
-  border: 1px solid;
-  border-color: black;
-  box-shadow: 10px 10px grey;
-  width: 300px;
-  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 3%;
 }
 
 .document {
