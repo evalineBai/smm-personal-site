@@ -5,19 +5,38 @@
   min-height: 500px;
 }
 
-.col-2-3 {
-  width: 66.66%;
-}
-
-.col-1-3 {
-  width: 33.33%;
+.rushmore {
+  width: 100%;
+  height: auto;
 }
 
 .contact-box {
-  margin-top: 10%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.title {
+  font-size: 1.75rem;
+  padding-right: 5%;
+}
+
+.icon-box {
+  display: inline;
 }
 
 .icon {
-  padding: 4%;
-  color: grey;
+  padding: 3%;
+  color: #b2bec3;
+}
+
+.address-box {
+  border: solid 2px #636e72;
+  padding: 3%;
+  margin-top: 5%;
+}
+
+.address {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  color: #273c75;
 }
