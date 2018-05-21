@@ -39,6 +39,15 @@
   text-align: center;
 }
 
+.card-text {
+  color: #0984e3;
+}
+
+.card-text:hover {
+  color: #273c75;
+  text-decoration: none;
+}
+
 .card-container:hover .press-image {
   opacity: 0.3;
 }

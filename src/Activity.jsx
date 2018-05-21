@@ -32,10 +32,11 @@ const Activity = () => (
               className="press-image"
             />
             <div className="middle">
-              <div className="cardText">
+              <div>
                 <a
                   href="http://www.astronomy.com/news/2016/05/astronomers-find-a-system-of-planets-that-keep-each-other-in-the-tightest-formation-seen"
                   target="_blank"
+                  className="card-text"
                 >
                   Astronomers find a system of planets that keep each other in
                   the tightest formation seen
@@ -53,10 +54,11 @@ const Activity = () => (
               className="press-image"
             />
             <div className="middle">
-              <div className="cardText">
+              <div>
                 <a
                   href="http://www.skyandtelescope.com/astronomy-news/giant-planets-and-wonky-orbits/"
                   target="_blank"
+                  className="card-text"
                 >
                   Giant Planets and Wonky Orbits
                 </a>
@@ -75,10 +77,11 @@ const Activity = () => (
               className="press-image"
             />
             <div className="middle">
-              <div className="cardText">
+              <div>
                 <a
                   href="https://www.space.com/32860-four-alien-planets-resonance-kepler-223.html"
                   target="_blank"
+                  className="card-text"
                 >
                   Surprise! 4 Alien Worlds Locked in Fragile Dance for 6 Billion
                   Years
@@ -96,10 +99,11 @@ const Activity = () => (
               className="press-image"
             />
             <div className="middle">
-              <div className="cardText">
+              <div>
                 <a
                   href="https://gizmodo.com/this-four-planet-system-features-one-of-the-coolest-orb-1776231945"
                   target="_blank"
+                  className="card-text"
                 >
                   This Four-Planet System Features One of the Coolest Orbital
                   Arrangements We've Ever Seen
