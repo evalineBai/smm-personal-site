@@ -24,7 +24,7 @@ const Activity = () => (
     <hr className="bar" />
     <Container className="press">
       <Row>
-        <Col>
+        <Col xs="12" md="6">
           <div className="card-container">
             <img
               src={Astronomers}
@@ -45,7 +45,7 @@ const Activity = () => (
             </div>
           </div>
         </Col>
-        <Col>
+        <Col xs="12" md="6">
           <div className="card-container">
             <img
               src={Wonky}
@@ -67,7 +67,7 @@ const Activity = () => (
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col xs="12" md="6">
           <div className="card-container">
             <img
               src={FourWorlds}
@@ -88,7 +88,7 @@ const Activity = () => (
             </div>
           </div>
         </Col>
-        <Col>
+        <Col xs="12" md="6">
           <div className="card-container">
             <img
               src={GizmodoImage}
