@@ -2,7 +2,7 @@
   margin-top: 3%;
   margin-bottom: 10%;
   min-height: 300px;
-  background-image: url(../media/stellar-background.jpg);
+  background-image: url("https://s3-us-west-2.amazonaws.com/www.seanmills.website/smm-media/stellar-background.jpg");
   background-size: cover;
 }
 

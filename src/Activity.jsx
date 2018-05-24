@@ -11,10 +11,6 @@ import {
   Col
 } from 'reactstrap';
 import './style/activity.css';
-import GizmodoImage from './media/gizmodo-press.png';
-import FourWorlds from './media/4worlds-press.jpg';
-import Wonky from './media/wonky-press.png';
-import Astronomers from './media/astronomers-press.png';
 
 const Activity = () => (
   <div className="activity">
@@ -27,7 +23,7 @@ const Activity = () => (
         <Col xs="12" md="6">
           <div className="card-container">
             <img
-              src={Astronomers}
+              src="https://s3-us-west-2.amazonaws.com/www.seanmills.website/smm-media/astronomers-press.png"
               alt="Astronomers Find a System of Planets"
               className="press-image"
             />
@@ -49,7 +45,7 @@ const Activity = () => (
         <Col xs="12" md="6">
           <div className="card-container">
             <img
-              src={Wonky}
+              src="https://s3-us-west-2.amazonaws.com/www.seanmills.website/smm-media/wonky-press.png"
               alt="Giant Planet and Wonky Orbits"
               className="press-image"
             />
@@ -72,7 +68,7 @@ const Activity = () => (
         <Col xs="12" md="6">
           <div className="card-container">
             <img
-              src={FourWorlds}
+              src="https://s3-us-west-2.amazonaws.com/www.seanmills.website/smm-media/4worlds-press.jpg"
               alt="4 Alien Worlds Locked in Dance"
               className="press-image"
             />
@@ -94,7 +90,7 @@ const Activity = () => (
         <Col xs="12" md="6">
           <div className="card-container">
             <img
-              src={GizmodoImage}
+              src="https://s3-us-west-2.amazonaws.com/www.seanmills.website/smm-media/gizmodo-press.png"
               alt="4-Planet System with Cool Orbital Arrangement"
               className="press-image"
             />

@@ -2,7 +2,6 @@ import React from 'react';
 import { Icon } from 'react-fa';
 import { Container, Row, Col } from 'reactstrap';
 import './style/contact.css';
-import Rushmore from './media/rushmore.jpg';
 
 const Contact = () => (
   <div className="contact">
@@ -10,7 +9,7 @@ const Contact = () => (
       <Row>
         <Col xs="12" md="6">
           <img
-            src={Rushmore}
+            src="https://s3-us-west-2.amazonaws.com/www.seanmills.website/smm-media/rushmore.jpg"
             alt="Sean at Mt. Rushmore"
             className="rushmore"
           />
