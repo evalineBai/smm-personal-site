@@ -9,7 +9,7 @@ const CV = () => (
         <Col>
           <div className="grid-item">
             <a
-              href="https://drive.google.com/file/d/0B1hwEpLvdn6tZC04VGFMTGl0ZTg/view"
+              href="https://drive.google.com/file/d/1MdPt-iGaBTDwLrcTGQKS3m0zS2hS78N9/view"
               target="_blank"
             >
               <h1 className="document link">CV</h1>
@@ -19,7 +19,7 @@ const CV = () => (
         <Col>
           <div className="grid-item">
             <a
-              href="https://drive.google.com/file/d/1rxPSCv1Imw87KPFAHULVTDdsUT6iBABu/view"
+              href="https://drive.google.com/file/d/18pn0EUPqCRQMetICriN_OdWx6Lhh-8bb/view"
               target="_blank"
             >
               <h1 className="document link">RESUME</h1>
