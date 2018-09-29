@@ -16,23 +16,26 @@ const Contact = () => (
         </Col>
         <Col xs="12" md="6">
           <div className="contact-box">
-            <div className="icon-box">
+            <div>
               <span className="title">Contact Me</span>
-              <a href="mailto:sean.martin.mills@gmail.com">
-                <Icon name="envelope-o" size="2x" className="icon link" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/seanmmills/"
-                target="_blank"
-              >
-                <Icon name="linkedin-square" size="2x" className="icon link" />
-              </a>
-              <a
-                href="https://github.com/smmills"
-                target="_blank"
-              >
-                <Icon name="code-fork" size="2x" className="icon link" />
-              </a>
+              <div className="icon-box">
+                <a href="mailto:sean.martin.mills@gmail.com">
+                  <Icon name="envelope-o" size="2x" className="icon link" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/seanmmills/"
+                  target="_blank"
+                >
+                  <Icon name="linkedin-square" size="2x" className="icon link" />
+                </a>
+                <a
+                  href="https://github.com/smmills"
+                  target="_blank"
+                >
+                  <Icon name="code-fork" size="2x" className="icon link" />
+                </a>
+              </div>
+
               <hr className="bar" />
             </div>
             <div className="address-box">

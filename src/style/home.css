@@ -26,3 +26,15 @@
   margin: 5% 2% 3% 2%;
   border-radius: 50%;
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) {
+  .image-home {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
