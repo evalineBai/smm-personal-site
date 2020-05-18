@@ -29,7 +29,7 @@ const Contact = () => (
                   <Icon name="linkedin-square" size="2x" className="icon link" />
                 </a>
                 <a
-                  href="https://github.com/smmills"
+                  href="https://github.com/smills-theorem"
                   target="_blank"
                 >
                   <Icon name="code-fork" size="2x" className="icon link" />
@@ -38,10 +38,12 @@ const Contact = () => (
 
               <hr className="bar" />
             </div>
-            <div className="address-box">
-              <h5 className="address">Cahill Center for Astronomy and Astrophysics:</h5>
-              <p>1216 E California Blvd, Pasadena, CA 91125</p>
-            </div>
+            <iframe
+              className="sf-map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25227.535543069003!2d-122.40941778357157!3d37.77968145603852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1589764453925!5m2!1sen!2sus"
+              aria-hidden="false"
+              tabindex="0"
+            />
           </div>
         </Col>
       </Row>

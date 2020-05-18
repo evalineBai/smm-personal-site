@@ -18,12 +18,10 @@ const CV = () => (
         </Col>
         <Col>
           <div className="grid-item">
-            <a
-              href="https://drive.google.com/file/d/18pn0EUPqCRQMetICriN_OdWx6Lhh-8bb/view"
-              target="_blank"
-            >
+            <a href="mailto:sean.martin.mills@gmail.com">
               <h1 className="document link">RESUME</h1>
             </a>
+            <p className="document-note">(please email me directly for a recent resume)</p>
           </div>
         </Col>
       </Row>
