@@ -9,7 +9,7 @@ const CV = () => (
         <Col>
           <div className="grid-item">
             <a
-              href="https://drive.google.com/file/d/1MdPt-iGaBTDwLrcTGQKS3m0zS2hS78N9/view"
+              href="https://drive.google.com/file/d/1_3bbKx6-zrIiY9r5qS00myNeYlIEPBZO/view?usp=sharing"
               target="_blank"
             >
               <h1 className="document link">ACADEMIC CV</h1>
