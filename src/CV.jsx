@@ -12,7 +12,7 @@ const CV = () => (
               href="https://drive.google.com/file/d/1MdPt-iGaBTDwLrcTGQKS3m0zS2hS78N9/view"
               target="_blank"
             >
-              <h1 className="document link">CV</h1>
+              <h1 className="document link">ACADEMIC CV</h1>
             </a>
           </div>
         </Col>

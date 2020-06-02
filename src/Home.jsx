@@ -9,11 +9,12 @@ const Home = () => (
       className="image-home"
     />
     <div className="about">
-      Hello, I'm Sean. My goal is to apply scientific rigor to financial ML models.
+      Hello, I'm Sean. My goal is to apply scientific rigor to financial ML models and portfolio management.
       <br />
       <br />
-      Prior to becoming a machine learning researcher in credit-modeling, I was a post-doctoral scholar 
-      at The California Institute of Technology in Pasadena, CA. I did my PhD in Astrophysics
+      Prior to becoming a machine learning credit modeling researcher, 
+      I was a post-doctoral scholar 
+      at The California Institute of Technology in Pasadena, CA. I did my PhD in computational Astrophysics
       at The University of Chicago, advised by Professor Dan Fabrycky, and Bachelor's in
       Physics and English from Caltech.
       <br />

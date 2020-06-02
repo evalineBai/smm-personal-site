@@ -7,13 +7,13 @@ const Research = () => (
     <div className="research-summary col-3-5">
       <h2>Overview</h2>
       <hr className="bar" />
-      I am primarily a theorist interested in the formation, evolution, and
+      As an astronomer I was theorist interested in the formation, evolution, and
       diversity of exoplanets. My past work has centered around using data from
       NASA's Kepler space mission to understand the dynamical interactions of
       multiple planet systems.
       <br />
       <br />
-      Since coming to Caltech, I have been working on combining the information
+      At Caltech, I worked on combining the information
       gained about stellar systems from high-resolution spectroscopy and radial
       velocities of their host stars with transit timing data. For these tasks I
       employ custom photo-dynamical models and stability simulations using
@@ -25,7 +25,7 @@ const Research = () => (
       </NavLink>
       <br />
       <br />
-      Interesting systems I have worked on lately include Kepler-223, a resonant
+      Interesting systems I have worked on include Kepler-223, a resonant
       chain of planets that is a window to planet formation, and Kepler-453, 
       which is a misaligned circumbinary system that exhibits rapid
       precession resulting in transits disappearing and reappearing.
